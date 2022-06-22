@@ -1,0 +1,10 @@
+.searchBox input {
+  background-color: white;
+  padding: 10px;
+}
+
+.searchBox {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

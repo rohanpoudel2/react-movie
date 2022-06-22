@@ -1,0 +1,35 @@
+.movie-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  opacity: 0;
+  font-style: 20px;
+  padding: 20px;
+  width: 260px;
+  bottom: 0;
+}
+
+.img-hover {
+  position: relative;
+}
+
+.img-hover img {
+  margin-right: 20px;
+}
+
+.img-hover:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.img-hover:hover .image-overlay {
+  opacity: 1;
+}
